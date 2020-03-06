@@ -1,0 +1,24 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navigation bar edits starts here */
+.logo img
+{
+  width: 125px;
+  height: auto;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightgrey; 
+}
+
+/* Navigation bar edits ends here */
