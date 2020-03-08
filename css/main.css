@@ -37,6 +37,11 @@ nav
   font-size: 14px;
 }
 
+.burgerMenu
+{
+  display: none;
+}
+
 .burgerMenu div
 {
     width: 25px;
@@ -45,3 +50,34 @@ nav
     margin:5px;
 }
 /* Navigation bar edits ends here */
+
+/* Media Query Fires for Responsive Design */
+
+/* Navigation Bar */
+
+@media screen and (max-width:1024px)
+{
+  .nav-links
+  {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+  .nav-links
+  {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Navigation Bar */
+
+/* Media Query Ends Here */
