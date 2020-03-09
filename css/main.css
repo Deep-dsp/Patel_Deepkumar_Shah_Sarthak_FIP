@@ -50,7 +50,9 @@ nav
     height: 3px;
     background-color: white;
     margin:5px;
+    transition: all 0.5s ease;
 }
+
 /* Navigation bar edits ends here */
 
 /* Media Query Fires for Responsive Design */
@@ -96,11 +98,37 @@ nav
   }
 }
 
+/* Navigation Bar */
+
+/* Media Query Ends Here */
+
 .nav-active
 {
   transform: translateX(0%);
 }
 
-/* Navigation Bar */
+@keyframes navLinkFade {
+  from{
+    opacity: 0;
+    transform: transitionX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: transitionX(0px);
+  }
+}
 
-/* Media Query Ends Here */
+.toggle .line1
+{
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2
+{
+  opacity: 0;
+}
+
+.toggle .line3
+{
+  transform: rotate(45deg) translate(-5px, -6px);
+}
