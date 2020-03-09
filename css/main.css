@@ -13,14 +13,19 @@
   transform: rotate(-20deg);
 }
 
+.bgCover
+{
+  background-image: url("../images/homeBG.png");
+  background-position: fixed;
+}
+
 nav
 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
-    background-color: lightgrey;
-    font-family: 'Poppins', sans-serif
+    min-height: 10vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-links
@@ -35,7 +40,7 @@ nav
   color: #fff;
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .burgerMenu
@@ -51,6 +56,111 @@ nav
     background-color: white;
     margin:5px;
     transition: all 0.5s ease;
+}
+
+.mainContainer
+{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyRight
+{
+  display: flex;
+  transform: rotate(-90deg);
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: 200px;
+  /* background-color: red; */
+  /* width: auto; */
+}
+
+.underLine
+{
+  width: 60px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.upperLine
+{
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.copyText p
+{
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  color: white;
+  letter-spacing: 5px;
+  margin: 20px;
+}
+
+.tagLineCon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 2;
+  z-index: -1;
+}
+
+.tagLine
+{
+  position: relative;
+}
+
+.tagLine p{
+  font-family: 'script', sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.flavorText, .lifeText
+{
+    font-size: 120px;
+    position: relative;
+    left: 60px;
+}
+
+.toText
+{
+  position: relative;
+  left: 350px;
+}
+
+.lifeText
+{
+  position: relative;
+  left: 380px;
+}
+
+.threeBoxCon
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  /* margin-top: 480px; */
+}
+
+.box1, .box2, .box3
+{
+  width: 160px;
+  height: 120px;
+  background-color: #000;
+  margin-right: 35px;
+}
+
+.beerImageCon
+{
+  flex: 1
 }
 
 /* Navigation bar edits ends here */
@@ -77,9 +187,9 @@ nav
   {
     position: absolute;
     right: 0;
-    height: 92vh;
-    top: 8vh;
-    background-color: lightgrey;
+    height: 90vh;
+    top: 10vh;
+    background-color: #693102;
     display: flex;
     flex-direction: column;
     align-items: center;
