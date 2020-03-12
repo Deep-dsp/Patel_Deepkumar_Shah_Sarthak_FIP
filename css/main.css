@@ -62,27 +62,44 @@ nav
 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   margin:auto;
   min-height: 80vh;
   background-color: green;
 }
 
-/* .threeBoxCon
+.tagLineCon
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: red;
+  min-height: 80vh;
+  padding-left: 100px;
+  flex: 1;
+}
+.beerImageCon
+{
+  /* background-color: purple; */
+  flex: 0.5;
+}
+
+.threeBoxCon
 {
   display: flex;
   flex-direction: row;
   align-items: center;
-} */
+}
 
-/* .box1, .box2, .box3
+.box1, .box2, .box3
 {
   width: 160px;
   height: 120px;
+  margin-right: 20px;
   background-color: #000;
-} */
-/*
-.beerImageCon
+}
+
+/* .beerImageCon
 {
   flex: 1
 } */
