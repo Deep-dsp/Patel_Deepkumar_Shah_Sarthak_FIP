@@ -69,6 +69,12 @@ nav
   -ms-transition: width 0.3s;
 }
 
+.active::after
+{
+  width: 100%;
+  margin-top: 5px;
+}
+
 .burgerMenu
 {
   display: none;
@@ -95,6 +101,7 @@ nav
   /* justify-content: space-around; */
   margin:auto;
   min-height: 80vh;
+  max-width: 100%;
   /* background-color: green; */
 }
 
@@ -173,6 +180,7 @@ nav
   position: relative;
   left: 100px;
   top: 80px;
+  height: 15vh;
 }
 
 /* .arrow
