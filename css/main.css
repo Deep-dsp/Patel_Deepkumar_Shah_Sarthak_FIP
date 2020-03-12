@@ -115,17 +115,54 @@ nav
   flex: 1;
 }
 
-.tagLine p{
+.tagLine
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tagLine p
+{
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 60px;
-  margin-bottom: 100px;
+  line-height: 100px;
+  /* margin-bottom: 100px; */
   position: relative;
   left: 100px;
   z-index: -1;
+  /* background-color: red; */
 }
 
-.addingText
+p.addingText
+{
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+p.flavorText
+{
+  font-size: 120px;
+  margin-left: 150px;
+  letter-spacing: 15px;
+}
+
+p.toText
+{
+  font-size: 50px;
+  margin-left: 650px;
+  margin-top: 20px;
+}
+
+p.lifeText
+{
+  font-size: 120px;
+  letter-spacing: 30px;
+  margin-left: 700px;
+}
+
+/* .addingText
 {
     font-size: 50px;
     position: relative;
@@ -138,9 +175,9 @@ nav
     position: relative;
     left: 130px;
     top: 150px;
-}
+} */
 
-.toText
+/* .toText
 {
   position: relative;
   left: 745px;
@@ -154,7 +191,7 @@ nav
   left: 790px;
   top: 60px;
   font-size: 120px;
-}
+} */
 
 .beerImageCon
 {
