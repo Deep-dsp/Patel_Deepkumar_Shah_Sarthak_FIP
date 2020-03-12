@@ -61,107 +61,31 @@ nav
 .mainContainer
 {
   display: flex;
-  margin-top: 50px;
-  justify-content: center;
   align-items: center;
-}
-
-.copyRight
-{
-  display: flex;
-  transform: rotate(-90deg);
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  margin-top: 200px;
-  /* background-color: red; */
-  /* width: auto; */
-}
-
-.underLine
-{
-  width: 60px;
-  height: 2px;
-  background-color: #fff;
-}
-
-.upperLine
-{
-  width: 100px;
-  height: 2px;
-  background-color: #fff;
-}
-
-.copyText p
-{
-  font-family: 'Arial', sans-serif;
-  font-size: 14px;
-  color: white;
-  letter-spacing: 5px;
-  margin: 20px;
-}
-
-.tagLineCon
-{
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  flex: 2;
-  z-index: -1;
+  margin:auto;
+  min-height: 80vh;
+  background-color: green;
 }
 
-.tagLine
-{
-  position: relative;
-}
-
-.tagLine p{
-  font-family: 'script', sans-serif;
-  color: #fff;
-  font-size: 40px;
-}
-
-.flavorText, .lifeText
-{
-    font-size: 120px;
-    position: relative;
-    left: 60px;
-}
-
-.toText
-{
-  position: relative;
-  left: 350px;
-}
-
-.lifeText
-{
-  position: relative;
-  left: 380px;
-}
-
-.threeBoxCon
+/* .threeBoxCon
 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: relative;
-  top: 150px;
-  /* margin-top: 480px; */
-}
+} */
 
-.box1, .box2, .box3
+/* .box1, .box2, .box3
 {
   width: 160px;
   height: 120px;
   background-color: #000;
-  margin-right: 35px;
-}
-
+} */
+/*
 .beerImageCon
 {
   flex: 1
-}
+} */
 
 /* Navigation bar edits ends here */
 
