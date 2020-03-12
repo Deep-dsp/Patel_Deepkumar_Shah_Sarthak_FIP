@@ -65,19 +65,48 @@ nav
   /* justify-content: space-around; */
   margin:auto;
   min-height: 80vh;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .tagLineCon
 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  background-color: red;
+  justify-content: center;
   min-height: 80vh;
-  padding-left: 100px;
+  padding-left: 250px;
   flex: 1;
 }
+
+.tagLine p{
+  font-family: 'script', sans-serif;
+  color: #fff;
+  font-size: 60px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 100px;
+  z-index: -1;
+}
+
+.flavorText, .lifeText
+{
+    font-size: 120px;
+    position: relative;
+    left: 60px;
+}
+
+.toText
+{
+  position: relative;
+  left: 350px;
+}
+
+.lifeText
+{
+  position: relative;
+  left: 380px;
+}
+
 .beerImageCon
 {
   /* background-color: purple; */
@@ -89,6 +118,9 @@ nav
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: relative;
+  left: 100px;
+  z-index: -1;
 }
 
 .box1, .box2, .box3
@@ -99,12 +131,20 @@ nav
   background-color: #000;
 }
 
-/* .beerImageCon
-{
-  flex: 1
-} */
-
 /* Navigation bar edits ends here */
+
+/* Footer edits start here */
+
+.homeFooter
+{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+}
+
+/* Footer edits End here */
 
 /* Media Query Fires for Responsive Design */
 
